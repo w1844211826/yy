@@ -76,10 +76,11 @@
     "h5" : {
         "title" : "青年帮新闻",
         "router" : {
-            "base" : "./"
+            "base" : "./",
+            "mode" : "history"
         },
         "devServer" : {
-            "https" : true
+            "https" : false
         }
     }
 }
